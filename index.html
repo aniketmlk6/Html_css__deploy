@@ -4,58 +4,44 @@
     <meta charset="UTF-8">
     <title>Title</title>
 
-GOPAL IS HAVING TEA
+    <!--only screen: The only keyword is used to prevent older browsers that do not support media queries with media features from applying the specified styles-->
 
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
 
-    <!-- jQuery library -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        .p_iers{
 
-    <!-- Popper JS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+            font-size: 300px;
 
-    <!-- Latest compiled JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        }
+
+        /*mobile specific*/
+        @media only screen and (max-width: 575.98px){
+
+            body{
+
+                background-color: #afffd8;
+
+            }
+
+            .p_iers{
+
+                font-size: 125px;
+
+            }
+
+        }
+
+
+    </style>
 
 </head>
 <body>
 
-<!--cards-->
-<!--A card in Bootstrap 4 is a bordered box with some padding around its content.
-It includes options for headers, footers, content, colors, etc.-->
-
-<div class="card">
-    <div class="card-body">
-        Basic card
-    </div>
+<div>
+    <p class="p_iers">Hi Sean</p>
 </div>
 
-<!--different colors-->
-<div class="card bg-danger">
-    <div class="card-body">
-        Basic card
-    </div>
-</div>
 
-<div class="card bg-success">
-    <div class="card-body">
-        Basic card
-    </div>
-</div>
-
-<!--different shape-->
-<div class="card" style="width: 200px;">
-    <div class="card-body">
-        Basic card
-    </div>
-</div>
-
-<div class="container">
-    <div class="row">
-        <div class="d-flex justify-content-center">...</div>
-    </div>
-</div>
 
 
 </body>
